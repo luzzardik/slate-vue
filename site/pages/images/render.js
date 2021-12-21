@@ -1,6 +1,6 @@
 import ImageElement from './imageElement'
 import {Transforms} from 'slate';
-import {gvm} from 'slate-vue';
+import {gvm} from 'slate-vue-reborn';
 
 export const renderElement = ({ attributes, children, element }) => {
   return {

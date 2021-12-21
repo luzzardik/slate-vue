@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import { FocusedMixin, SelectedMixin } from 'slate-vue';
+  import { FocusedMixin, SelectedMixin } from 'slate-vue-reborn';
 
   export default {
     name: 'mentions',

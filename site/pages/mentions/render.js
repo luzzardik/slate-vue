@@ -1,4 +1,4 @@
-import { FocusedMixin, SelectedMixin } from 'slate-vue';
+import { FocusedMixin, SelectedMixin } from 'slate-vue-reborn';
 import MentionElement from './mentions'
 
 export const renderElement = ({ attributes, children, element }) => {

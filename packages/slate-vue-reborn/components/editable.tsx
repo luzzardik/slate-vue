@@ -7,7 +7,7 @@ import {
   DOMStaticRange,
   addOnBeforeInput,
   EditableComponent
-} from 'slate-vue-shared';
+} from 'slate-vue-reborn-shared';
 import { Range } from 'slate';
 import { PropType } from 'vue';
 import { UseRef } from '../types';

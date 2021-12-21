@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-  import {SelectedMixin, FocusedMixin} from 'slate-vue';
+  import {SelectedMixin, FocusedMixin} from 'slate-vue-reborn';
 
   export default {
     name: 'imageElement',

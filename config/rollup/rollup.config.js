@@ -1,6 +1,6 @@
 const rollupConfigure = require('@razors/build-rollup')
-const SlateVue = require('../../packages/slate-vue/package.json')
-const SlateVueShared = require('../../packages/slate-vue-shared/package.json')
+const SlateVue = require('../../packages/slate-vue-reborn/package.json')
+const SlateVueShared = require('../../packages/slate-vue-reborn-shared/package.json')
 
 const babelOptions = {
   presets: [

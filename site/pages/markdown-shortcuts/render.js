@@ -1,5 +1,5 @@
 import {Editor, Range, Point} from 'slate';
-import {Transforms} from 'slate-vue';
+import {Transforms} from 'slate-vue-reborn';
 
 const SHORTCUTS = {
   '*': 'list-item',

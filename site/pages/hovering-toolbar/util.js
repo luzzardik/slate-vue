@@ -1,4 +1,4 @@
-import {Transforms} from 'slate-vue';
+import {Transforms} from 'slate-vue-reborn';
 import {Editor, Text} from 'slate';
 
 export const isFormatActive = (editor, format) => {

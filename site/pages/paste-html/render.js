@@ -1,4 +1,4 @@
-import {Transforms} from 'slate-vue';
+import {Transforms} from 'slate-vue-reborn';
 import ImageElement from '../images/imageElement';
 import {jsx} from 'slate-hyperscript'
 

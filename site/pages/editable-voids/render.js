@@ -1,4 +1,4 @@
-import {Transforms} from 'slate-vue';
+import {Transforms} from 'slate-vue-reborn';
 import EditableVoidElement from './editableVoidElement'
 
 const insertEditableVoid = editor => {

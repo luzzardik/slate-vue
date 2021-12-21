@@ -16,7 +16,7 @@
 
 <script>
   import UrlInput from './UrlInput';
-  import { VueEditor, Transforms } from 'slate-vue';
+  import { VueEditor, Transforms } from 'slate-vue-reborn';
 
   export default {
     name: 'videoElement',

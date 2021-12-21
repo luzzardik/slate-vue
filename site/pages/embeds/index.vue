@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import {Slate, Editable} from 'slate-vue'
+  import {Slate, Editable} from 'slate-vue-reborn'
   import {renderElement} from './render';
   import {withEmbeds} from './util';
 

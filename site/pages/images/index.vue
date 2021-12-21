@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import {Slate, Editable} from 'slate-vue'
+  import {Slate, Editable} from 'slate-vue-reborn'
   import {renderElement} from './render';
   import InsertImageButton from './insertImageButton'
   import Toolbar from '../components/toolbar'

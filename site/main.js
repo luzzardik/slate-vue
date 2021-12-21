@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import app from './app'
-import { SlatePlugin } from 'slate-vue';
+import { SlatePlugin } from 'slate-vue-reborn';
 import './index.css'
 import {router} from './router'
 import { withHistory } from 'slate-history'

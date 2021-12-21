@@ -30,7 +30,7 @@ import
 
 ```javascript
 import Vue from 'vue'
-import { SlatePlugin } from 'slate-vue';
+import { SlatePlugin } from 'slate-vue-reborn';
 Vue.use(SlatePlugin)
 ```
 
@@ -44,7 +44,7 @@ use
 </template>
 
 <script>
-  import {Slate, Editable} from 'slate-vue'
+  import {Slate, Editable} from 'slate-vue-reborn'
 
   // this value is for editor
   const initialValue = [

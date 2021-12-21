@@ -22,7 +22,7 @@ import
 
 ```javascript
 import Vue from 'vue'
-import { SlatePlugin } from 'slate-vue';
+import { SlatePlugin } from 'slate-vue-reborn';
 Vue.use(SlatePlugin)
 ```
 
@@ -36,7 +36,7 @@ use
 </template>
 
 <script>
-  import {Slate, Editable} from 'slate-vue'
+  import {Slate, Editable} from 'slate-vue-reborn'
 
   // this value is for editor
   const initialValue = [
@@ -95,7 +95,7 @@ ReturnType must be any legal type which is equal with the first argument in Vue'
 
 Use Vue.mixin
 ```javascript
-import {SelectedMixin, FocusedMixin} from 'slate-vue'
+import {SelectedMixin, FocusedMixin} from 'slate-vue-reborn'
 ```
 And you will get selected, focused data in your component
 
@@ -106,7 +106,7 @@ And you will get readOnly data in your component
 ### useEffect, useRef
 
 ```javascript
-import {useEffect, useRef} from 'slate-vue'
+import {useEffect, useRef} from 'slate-vue-reborn'
 ```
 
 Same as react hooks. Forked from [vue-hooks](https://github.com/yyx990803/vue-hooks).
@@ -114,7 +114,7 @@ Same as react hooks. Forked from [vue-hooks](https://github.com/yyx990803/vue-ho
 ### fragment
 
 ```javascript
-import {fragment} from 'slate-vue'
+import {fragment} from 'slate-vue-reborn'
 ```
 
 Forked from [vue-fragment](https://github.com/Thunberg087/vue-fragment)
@@ -122,7 +122,7 @@ Forked from [vue-fragment](https://github.com/Thunberg087/vue-fragment)
 ### VueEditor
 
 ```javascript
-import {VueEditor} from 'slate-vue'
+import {VueEditor} from 'slate-vue-reborn'
 ```
 
 Same api with [react-editor](https://docs.slatejs.org/libraries/slate-react#reacteditor)
@@ -134,7 +134,7 @@ Same api with [react-editor](https://docs.slatejs.org/libraries/slate-react#reac
 If your component is related to the editor(like toolbar), you must add slateMixin for rerender:
 
 ```javascript
-import {SlateMixin} from 'slate-vue'
+import {SlateMixin} from 'slate-vue-reborn'
 ```
 
 ### Nuxtjs

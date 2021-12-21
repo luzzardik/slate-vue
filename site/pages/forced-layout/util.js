@@ -1,4 +1,4 @@
-import {Transforms} from 'slate-vue';
+import {Transforms} from 'slate-vue-reborn';
 import {Node} from 'slate';
 
 export const withLayout = editor => {

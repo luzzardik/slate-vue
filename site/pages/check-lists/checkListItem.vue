@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import { Transforms, VueEditor } from 'slate-vue';
+  import { Transforms, VueEditor } from 'slate-vue-reborn';
 
   export default {
     name: 'checkListItem',

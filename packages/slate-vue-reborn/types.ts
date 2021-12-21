@@ -4,7 +4,7 @@ import { VueEditor } from './plugins';
 import { Node, Path } from 'Slate';
 import {
   RenderLeafProps, RenderElementProps
-} from 'slate-vue-shared';
+} from 'slate-vue-reborn-shared';
 
 declare module 'vue/types/options' {
   interface ComponentOptions<V extends Vue> {

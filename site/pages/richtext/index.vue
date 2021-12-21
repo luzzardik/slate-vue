@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import {Slate, Editable} from 'slate-vue'
+  import {Slate, Editable} from 'slate-vue-reborn'
   import {renderLeaf, renderElement} from './render';
   import MarkButton from '../components/markButton';
   import BlockButton from '../components/blockButton'
