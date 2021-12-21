@@ -65,7 +65,7 @@ export const SlateMixin = tsx.component({
   mounted() {
     const editor = this.$editor
     // vue internal
-    editor._state.__ob__.dep.addSub((this as any)._watcher)
+    if(editor._state) editor._state.__ob__.dep.addSub((this as any)._watcher)
   }
 })
 
