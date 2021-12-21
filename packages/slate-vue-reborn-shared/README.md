@@ -1,3 +1,3 @@
-# slate-vue-shared
+# slate-vue-reborn-shared
 
-Shared utils for slate-vue and slate-vue-next
+Shared utils for slate-vue-reborn

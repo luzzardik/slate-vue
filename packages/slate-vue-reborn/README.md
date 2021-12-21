@@ -1,4 +1,6 @@
-# Slate-vue for vue2.x
+# Slate-vue-reborn for vue2.x
+
+This project is a fork of slate-vue with up-to-date slate.
 
 ## Install
 
