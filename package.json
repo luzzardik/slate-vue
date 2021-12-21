@@ -15,6 +15,7 @@
     "start": "npm-run-all --parallel --print-label watch serve",
     "commit": "rz-commit",
     "release": "shipjs prepare",
+    "trigger:release": "shipjs trigger",
     "test": "jest"
   },
   "devDependencies": {
