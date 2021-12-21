@@ -71,9 +71,8 @@ const string = tsx.component({
 
     // COMPAT: Render text inside void nodes with a zero-width space.
     // So the node can contain selection but the text is not visible.
-    if (editor.isVoid(parent)) {
+    if (editor.isVoid(parent))
       return <ZeroWidthString length={Node.string(parent as Node).length} />
-    }
 
     // COMPAT: If this is the last text node in an empty block, render a zero-
     // width space that will convert into a line break when copying and pasting
