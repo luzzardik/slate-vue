@@ -1,6 +1,6 @@
 {
   "name": "slate-vue-reborn-shared",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "dependencies": {
     "is-hotkey": "^0.2.0",
     "slate": "^0.72.0",
